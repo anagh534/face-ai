@@ -13,7 +13,6 @@ async function begainVideo() {
     }
     catch (err) {
         alert("Unable to connect to device");
-        console.log(err);
     }
 }
 video.addEventListener('play', () => {
