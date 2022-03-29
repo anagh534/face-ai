@@ -1,4 +1,6 @@
 const video = document.getElementById('video');
+video.width=1080;
+video.height=720;
 Promise.all([
     faceapi.nets.tinyFaceDetector.loadFromUri('models'),
     faceapi.nets.faceLandmark68Net.loadFromUri('models'),
