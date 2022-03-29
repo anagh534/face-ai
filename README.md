@@ -1,3 +1,4 @@
 # face-ai
 
-The project is not support in mobile
+Demo
+https://anagh534.github.io/face-ai/
